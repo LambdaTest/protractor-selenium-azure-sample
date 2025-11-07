@@ -19,7 +19,7 @@ exports.config = {
   },{
     'browserName': 'Safari',
     'version':'latest',
-    'platform': 'macOS 10.12'
+    'platform': 'macOS Sonoma'
   },{
     'browserName': 'Edge',
     'version':'latest',
