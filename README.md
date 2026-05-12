@@ -1,6 +1,6 @@
-![LambdaTest Logo](https://www.lambdatest.com/static/images/logo.svg)
+![TestMu AI Logo](https://www.testmuai.com/static/images/logo.svg)
 ---
-# Running Protector Selenium Azure on LambdaTest With Examples
+# Running Protector Selenium Azure on TestMu AI With Examples — TestMu AI (Formerly LambdaTest)
 
 ### Environment Setup
 
@@ -16,8 +16,8 @@
     cd protractor-selenium-azure-sample
     ```
 
-3. Lambdatest Credentials
-    * Set LambdaTest username and access key in environment variables. It can be obtained from [LambdaTest dashboard](https://automation.lambdatest.com/)    
+3. TestMu AI Credentials
+    * Set TestMu AI username and access key in environment variables. It can be obtained from [TestMu AI dashboard](https://automation.lambdatest.com/)    
     example:
     - For linux/mac
     ```
@@ -32,7 +32,7 @@
 3. Setup
   * Navigate to the cloned directory
   * Install dependencies `npm install`
-  * Update `*.conf.js` files inside the `conf/` directory with your [LambdaTest Username and Access Key]
+  * Update `*.conf.js` files inside the `conf/` directory with your [TestMu AI Username and Access Key]
 
 ### Running Tests
   * To run a single test, run `npm run single`
@@ -43,19 +43,28 @@ You will see the test result in the [lambdatest Dashboard](https://automation.la
 #####  Routing traffic through your local machine
 - Set tunnel value to `true` in test capabilities
 > OS specific instructions to download and setup tunnel binary can be found at the following links.
->    - [Windows](https://www.lambdatest.com/support/docs/display/TD/Local+Testing+For+Windows)
->    - [Mac](https://www.lambdatest.com/support/docs/display/TD/Local+Testing+For+MacOS)
->    - [Linux](https://www.lambdatest.com/support/docs/display/TD/Local+Testing+For+Linux)
+>    - [Windows](https://www.testmuai.com/support/docs/display/TD/Local+Testing+For+Windows)
+>    - [Mac](https://www.testmuai.com/support/docs/display/TD/Local+Testing+For+MacOS)
+>    - [Linux](https://www.testmuai.com/support/docs/display/TD/Local+Testing+For+Linux)
 
 ### Important Note:
 Some Safari & IE browsers, doesn't support automatic resolution of the URL string "localhost". Therefore if you test on URLs like "http://localhost/" or "http://localhost:8080" etc, you would get an error in these browsers. A possible solution is to use "localhost.lambdatest.com" or replace the string "localhost" with machine IP address. For example if you wanted to test "http://localhost/dashboard" or, and your machine IP is 192.168.2.6 you can instead test on "http://192.168.2.6/dashboard" or "http://localhost.lambdatest.com/dashboard".
 
+## 🚀 [LambdaTest is Now TestMu AI](https://www.testmuai.com/lambdatest-is-now-testmuai/)
 
-## About LambdaTest
+👋 Welcome to TestMu AI, the next evolution of LambdaTest. As of January 2026, LambdaTest has officially rebranded to TestMu AI. We have evolved from a cross-browser testing cloud into a unified, AI-native quality engineering platform designed for the modern DevOps era.
 
-[LambdaTest](https://www.lambdatest.com/) is a cloud based selenium grid infrastructure that can help you run automated cross browser compatibility tests on 2000+ different browser and operating system environments. LambdaTest supports all programming languages and frameworks that are supported with Selenium, and have easy integrations with all popular CI/CD platforms. It's a perfect solution to bring your [selenium automation testing](https://www.lambdatest.com/selenium-automation) to cloud based infrastructure that not only helps you increase your test coverage over multiple desktop and mobile browsers, but also allows you to cut down your test execution time by running tests on parallel.
+Whether you have been part of the LambdaTest community for years or are just discovering TestMu AI, our mission remains the same: to help you ship faster with high-scale test execution, autonomous testing, and deep quality analytics.
 
-### Resources
+**🔄 Our Rebrand Journey**
 
-##### [SeleniumHQ Documentation](http://www.seleniumhq.org/docs/)
-##### [Protractor Documentation](https://www.protractortest.org/#/api)
+We chose the name TestMu AI to reflect our shift towards intelligent, autonomous testing. While our identity has changed, our core technology and commitment to the testing community stay the same.
+
+**✨ Specialties**
+
+- 🤖 AI-Native Test Execution (Formerly LambdaTest)
+- ⚡ Autonomous Test Automation
+- 🌐 Cross-Browser & Mobile Testing
+- 📊 Unified Quality Intelligence
+
+👉 Find [LambdaTest's New Home](https://www.testmuai.com/).
